@@ -1,34 +1,101 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="./images/logo.sample.png" alt="Logo of the project" align="right">
 
-## Getting Started
+# Name of the project &middot; [![Build Status](https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square)](https://travis-ci.org/npm/npm) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
 
-First, run the development server:
+> Additional information or tag line
 
-```bash
-npm run dev
-# or
-yarn dev
+A brief description of your project, what it is used for.
+
+## Installing / Getting started
+
+A quick introduction of the minimal setup you need to get a hello world up &
+running.
+
+```shell
+commands here
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Here you should say what actually happens when you execute the code above.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Developing
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Built With
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+List main libraries, frameworks used including versions (React, Angular etc...)
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Setting up Dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Here's a brief intro about what a developer must do in order to start developing
+the project further:
 
-## Deploy on Vercel
+```shell
+git clone https://github.com/your/your-project.git
+cd your-project/
+packagemanager install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Building
+
+If your project needs some additional steps for the developer to build the
+project after some code changes, state them here. for example:
+
+```shell
+./configure
+make
+make install
+```
+
+Here again you should state what actually happens when the code above gets
+executed.
+
+### Deploying / Publishing
+
+give instructions on how to build and release a new version
+In case there's some step you have to take that publishes this project to a
+server, this is the right time to state it.
+
+```shell
+packagemanager deploy your-project -s server.com -u username -p password
+```
+
+And again you'd need to tell what the previous code actually does.
+
+## Versioning
+
+We can maybe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [link to tags on this repository](/tags).
+
+## Configuration
+
+Here you should write what are all of the configurations a user can enter when using the project.
+
+## Tests
+
+Describe and show how to run the tests with code examples.
+Explain what these tests test and why.
+
+```shell
+Give an example
+```
+
+## Style guide
+
+Explain your code style and show how to check it.
+
+## Api Reference
+
+If the api is external, link to api documentation. If not describe your api including authentication methods as well as explaining all the endpoints with their required parameters.
+
+## Database
+
+Explaining what database (and version) has been used. Provide download links.
+Documents your database design and schemas, relations etc...
+
+## Licensing
+
+State what the license is and how to find the text version of the license.
