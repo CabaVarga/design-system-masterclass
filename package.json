@@ -5,13 +5,17 @@
     "scripts": {
         "build": "next build",
         "start": "next start",
+        "ssl:proxy": "local-ssl-proxy --key ./certs/key.pem --cert ./certs/certificate.pem --source 3001 --target 3000",
         "dev": "next dev",
+        "dev:ssl": "concurrently \"yarn dev\" \"yarn ssl:proxy\"",
         "format": "prettier --write \"src/**/*.{ts,tsx}\"",
         "lint": "prettier --check \"src/**/*.{ts,tsx}\"",
         "lint:eslint": "eslint --format unix \"**/*.ts\" \"**/*.tsx\"",
         "lint:fix": "yarn lint:eslint --fix",
         "lint:all": "yarn lint && yarn lint:eslint",
-        "reset": "rm -rf node_modules && rm -rf .next && yarn"
+        "lint:style": "stylelint \"**/*.css\"",
+        "reset": "rm -rf node_modules && rm -rf .next && yarn",
+        "prepare": "husky install"
     },
     "dependencies": {
         "axios": "^1.2.1",
