@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
 
-const Title = props => <div />;
+const Title = (props) => <div />
 
-Title.propTypes = {};
+Title.propTypes = {}
 
-export default Title;
+export default Title

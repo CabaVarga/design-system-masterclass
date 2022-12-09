@@ -1,15 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Title from './Title.jsx';
-import Subtitle from './Subtitle.jsx';
+import Subtitle from './Subtitle.jsx'
+import Title from './Title.jsx'
 
-const Heading = props => (
-  <div>
-    <Title />
-    <Subtitle />
-  </div>
-);
+const Heading = (props) => (
+    <div>
+        <Title />
+        <Subtitle />
+    </div>
+)
 
-Heading.propTypes = {};
+Heading.propTypes = {}
 
-export default Heading;
+export default Heading

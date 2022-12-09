@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
 
-const Sidebar = props => <div />;
+const Sidebar = (props) => <div />
 
-Sidebar.propTypes = {};
+Sidebar.propTypes = {}
 
-export default Sidebar;
+export default Sidebar

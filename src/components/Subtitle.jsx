@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
 
-const Subtitle = props => <div />;
+const Subtitle = (props) => <div />
 
-Subtitle.propTypes = {};
+Subtitle.propTypes = {}
 
-export default Subtitle;
+export default Subtitle

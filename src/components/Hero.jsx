@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Heading from './Heading.jsx';
+import React from 'react'
 
-const Hero = props => (
-  <div>
-    <Heading />
-  </div>
-);
+import Heading from './Heading.jsx'
 
-Hero.propTypes = {};
+const Hero = (props) => (
+    <div>
+        <Heading />
+    </div>
+)
 
-export default Hero;
+Hero.propTypes = {}
+
+export default Hero

@@ -1,15 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Sidebar from './Sidebar.jsx';
-import MainContent from './MainContent.jsx';
+import MainContent from './MainContent.jsx'
+import Sidebar from './Sidebar.jsx'
 
-const Body = props => (
-  <div>
-    <Sidebar />
-    <MainContent />
-  </div>
-);
+const Body = (props) => (
+    <div>
+        <Sidebar />
+        <MainContent />
+    </div>
+)
 
-Body.propTypes = {};
+Body.propTypes = {}
 
-export default Body;
+export default Body

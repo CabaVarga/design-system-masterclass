@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
 
-const NavBarElement = props => <div />;
+const NavBarElement = (props) => <div />
 
-NavBarElement.propTypes = {};
+NavBarElement.propTypes = {}
 
-export default NavBarElement;
+export default NavBarElement

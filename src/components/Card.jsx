@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
 
-const Card = props => <div />;
+const Card = (props) => <div />
 
-Card.propTypes = {};
+Card.propTypes = {}
 
-export default Card;
+export default Card

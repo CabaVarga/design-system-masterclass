@@ -1,8 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
 
-const MainContent = props => <div />;
+const MainContent = (props) => <div />
 
-MainContent.propTypes = {};
+MainContent.propTypes = {}
 
-export default MainContent;
+export default MainContent

@@ -1,17 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Hero from './Hero.jsx';
-import NavBar from './NavBar.jsx';
-import Body from './Body.jsx';
+import Body from './Body.jsx'
+import Hero from './Hero.jsx'
+import NavBar from './NavBar.jsx'
 
-const App = props => (
-  <div>
-    <Hero />
-    <NavBar />
-    <Body />
-  </div>
-);
+const App = (props) => (
+    <div>
+        <Hero />
+        <NavBar />
+        <Body />
+    </div>
+)
 
-App.propTypes = {};
+App.propTypes = {}
 
-export default App;
+export default App
