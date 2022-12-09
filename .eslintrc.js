@@ -1,10 +1,32 @@
 module.exports = {
     extends: ['next', 'next/core-web-vitals', 'eslint:recommended'],
+    plugins: ['import', 'unused-imports'],
+    overrides: [
+        {
+            'files': ['*.stories.@(ts|tsx|js|jsx|mjs|cjs)'],
+            'rules': {
+                // example of overriding a rule
+                'storybook/hierarchy-separator': 'error',
+            },
+        },
+    ],
     globals: {
         React: 'readonly',
     },
     rules: {
         'no-unused-vars': [1, { args: 'after-used', argsIgnorePattern: '^_' }],
+        'import/order': [
+            'error',
+            {
+                'newlines-between': 'always',
+                pathGroups: ['config', 'lib', 'app', 'components', 'pages', 'res'].map((path) => ({
+                    pattern: `${path}/**`,
+                    group: 'external',
+                    position: 'after',
+                })),
+                pathGroupsExcludedImportTypes: ['builtin'],
+            },
+        ],
     },
 }
 

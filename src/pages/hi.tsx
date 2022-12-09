@@ -1,5 +1,7 @@
 import HiPage from 'app/HiPage'
+
 import PrimaryLayout from 'components/layouts/PrimaryLayout'
+
 import { NextPageWithLayout } from './page'
 
 const Hi: NextPageWithLayout = () => {

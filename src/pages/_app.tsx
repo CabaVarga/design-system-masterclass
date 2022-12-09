@@ -1,4 +1,5 @@
 import type { AppProps } from 'next/app'
+
 import { NextPageWithLayout } from './page'
 
 interface AppPropsWithLayout extends AppProps {

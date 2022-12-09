@@ -1,5 +1,8 @@
-import PrimaryLayout from 'components/layouts/PrimaryLayout'
 import Head from 'next/head'
+
+import HomePage from 'app/home/HomePage'
+
+import PrimaryLayout from 'components/layouts/PrimaryLayout'
 
 import { NextPageWithLayout } from './page'
 
@@ -11,7 +14,7 @@ const Home: NextPageWithLayout = () => (
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <section>this is page content</section>
+        <HomePage />
     </>
 )
 
