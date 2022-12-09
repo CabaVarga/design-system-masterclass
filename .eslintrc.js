@@ -1,15 +1,6 @@
 module.exports = {
     extends: ['next', 'next/core-web-vitals', 'eslint:recommended'],
     plugins: ['import', 'unused-imports'],
-    overrides: [
-        {
-            'files': ['*.stories.@(ts|tsx|js|jsx|mjs|cjs)'],
-            'rules': {
-                // example of overriding a rule
-                'storybook/hierarchy-separator': 'error',
-            },
-        },
-    ],
     globals: {
         React: 'readonly',
     },
